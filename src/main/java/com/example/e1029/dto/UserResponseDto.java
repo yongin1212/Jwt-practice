@@ -10,8 +10,8 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class UserResponseDto {
-    private boolean success;
-    private String message;
+    private boolean success; // 성공 여부
+    private String message; //  메세지
 
 
 }
